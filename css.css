@@ -249,3 +249,356 @@ header{
     z-index: 3;
 }
 
+
+/* catalog styles */
+#catalog {
+    padding: 5px;
+    max-width: 100%;
+}
+#cat{
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+
+
+/* Image zoom on hover + Overlay colour */
+.parent{
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+.twos{
+    display: flex;
+}
+.pone{
+    width: 30%;
+    height: 550px;
+}
+.ptwo{
+    width: 70%;
+    height: 550px;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.child a{
+    font-family: 'Podkova',serif;
+}
+.bg-one{
+    background-image: url("./123/jeans/logo_jeans.jpg");
+    background-position: center;
+}
+.bg-two{
+    background-image: url("./123/jeideler/jeide_logo2.jpg");
+    background-position: center;
+}
+.bg-three{
+    background-image: url("./123/usak-tuyek/usak_logo.jpg");
+    background-position: center;
+}
+.bg-four{
+    background-image: url("./123/gift/gift_logo.jpg");
+    background-position: center;
+}
+
+.grads {
+    display: none;
+    font-size: 235%;
+    color: #ffffff ;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(90, 92, 94) 0%, rgb(233, 241, 243) 100%);
+    opacity: 0.9;
+}
+
+.looks h4 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Podkova',serif;
+    color: crimson;
+}
+
+.text_photo {
+    display: flex;
+    justify-content: space-around;
+}
+#lookbook{
+    height: 800px;
+}
+
+.photo {
+    width: 400px;
+    height: 650px;
+    border-radius: 50px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+}
+
+.text_photo_col:hover {
+    transform: translateY(-10px);
+}
+
+.textt {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.car{
+    max-width: 40%;
+    max-height: 30%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+.bastyq h1{
+    font-size: 95px;
+    -webkit-text-stroke: 3px #0045c0;
+}
+.custom-shape-divider-top-1639846922 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1639846922 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 44px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1639846922 .shape-fill {
+    fill: #0045C0;
+}
+
+.tes{
+    color: #0045C0;
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    padding: 80px;
+}
+.tes span{
+    color: white;
+    -webkit-text-stroke: 1px #0045c0;
+    font-weight: bold;
+}
+.ske{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+/*contacts*/
+#contacts{
+    background-color: white;
+}
+
+.cities{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 100px;
+    font-family: 'Podkova',serif;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    -webkit-text-stroke: 1.5px #0045c0;
+
+}
+.textcity{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: -3%;
+    font-family: 'Spartan',serif;
+    font-size: 30px;
+}
+#t{
+    font-size: 20px;
+}
+#contacts pre{
+    font-size: 25px;
+    text-align: center;
+}
+#Almaty,#logo, #Nur-Sultan, #Aqtau, #Aqtobe, #Shymkent{
+    cursor: pointer;
+}
+.main{
+
+    margin-top: 100PX;
+    height: 600px;
+}
+
+#map{
+    margin-top: -30px;
+    position: relative;
+    margin-left: 20%;
+    text-align: center;
+}
+.subscribe{
+    background-color: white;
+    height: 200px;
+    text-align: center;
+}
+.subscribe .submit{
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #0c12c2;
+    color: white;
+    margin-top: 8px;
+}
+.subscribe .submit:active {
+    transform: translateY(-2px);
+}
+
+.subscribe h1{
+    font-family: 'Podkova',serif;
+}
+.subscribe p{
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-whatsapp {
+    background: #55c05a;
+    color: white;
+}
+.fa-telegram {
+    background: #5eb1d1;
+    color: white;
+}
+.fa-instagram {
+    background: #ac14a4;
+    color: white;
+}
+.iconss{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.wues{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 12px;
+    padding-bottom: 10px;
+}
+.wues form{
+    margin-top: 160px;
+    font-family: 'Spartan',serif;
+}
+.wues label{
+    font-size: 35px;
+    font-family: 'Podkova',serif;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px #0045c0;
+}
+.wues form #app{
+    margin-top: 20px;
+}
+
+.wues form #app .button{
+    display: block;
+    padding: 12px 50px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #0c12c2;
+    color: white;
+    transform: translateY(-6px);
+}
+.wues form #app:active .button {
+    transform: translateY(-2px);
+}
+.custom-shape-divider-bottom-1639900400 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639900400 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 55px;
+}
+
+.custom-shape-divider-bottom-1639900400 .shape-fill {
+    fill: #0045c0;
+}
+
+footer .copyright{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+}
