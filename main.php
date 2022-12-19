@@ -139,3 +139,34 @@ session_start();
       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
       <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
     </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/saken.jpg" alt="saken" class="d-block" style="width:100%">
+      </div>
+      <!--div class="carousel-item">
+        <img src="./img/qrs.jpeg" alt="qrs" class="d-block" style="width:100%">
+      </-!div>
+      <div-- class="carousel-item">
+        <img src="./img/foto.jpg" alt="qrs" class="d-block" style="width:100%">
+      </div-->
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+    </div>
+
+    <div class="tes">
+    <p><span>Saken Zholdas</span> is a well-known Kazakh director and founder of <br>our brand <span>Qazaq Republic</span>, which was launched in 2017. Now we <br>have more than 30 points of sale all over the country. In the <br>beginning we had no confidence in the quality of the products,<br>so for the first year we worked in a test mode. Now we are<br> working with top retailers of the country, such as Meloman, Duty <br>Free, Shymbulak, FashionPark, Gazpromneft. During this time,<br> the sales have grown almost 20 times.In the future we plan to<br> introduce more assortment.</p>
+        <p class="it"><span>The idea</span> of our brand is to convey a piece of culture,<br> national identity. <span>The uniqueness</span> of our brand is in high-quality <br>presentation and modern style, which is not a shame to wear.</p>
+    </div>
+</div>
+</div>
+
