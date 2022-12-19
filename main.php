@@ -56,11 +56,7 @@ session_start();
                 </svg>
                 </a>
             </button>
-            <button class="hamburger" onclick="openSide()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+           
     
         </div>
     </header>
