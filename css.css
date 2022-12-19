@@ -166,3 +166,99 @@ header{
 .video{
     margin-top: 100px;
 }
+
+
+/* Aboutus styles */
+#aboutus{
+    background-color: #0045c0;
+    margin-top: -8px;}
+.imgg{
+    margin-top: -35%;
+    box-shadow: 0px 0px 20px 0.5px rgb(0, 0, 0);
+    margin-left: 58%;
+    z-index: -1;
+    margin-bottom: 70px;}
+.text h1{
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+    margin: 170px 0 0 100px;
+    z-index: 2;
+}
+.text p{
+    color: rgb(173, 191, 240);
+    font-family: 'Spartan', sans-serif;
+    margin: 20px 0 0 100px;
+    font-size: 20px;
+}
+.text pre{
+    color: rgb(50, 86, 185);
+    font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
+    font-size:500%;
+    margin: 80px 0 -0.5% 100px;
+    z-index: 4;
+}
+#first{
+    color: white;
+    font-size: 90px;
+    margin-top: -5%;
+    z-index: 1;
+}
+.bastyq{
+    background-color: white;
+    position: relative;
+}
+.bastyq h1{
+    color: white;
+    font-family: 'Podkova',serif;
+    text-align: center;
+    padding: 50px;
+}
+/*parallax style*/
+.ct{
+    background-image: url(./img/cat.png);
+}
+.au{
+    background-image: url(./img/us.png);
+}
+.cn{
+    background-image: url(./img/cn.png);
+}
+.lb{
+    background-image: url(./img/lb.png);
+}
+.parallax {
+    background-size: 30%;
+    height: 100px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    position: relative;
+}
+.parallax .mask {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.parallax h1 {
+    z-index: 3;
+}
+
+
+/* catalog styles */
+#catalog {
+    padding: 5px;
+    max-width: 100%;
+}
+#cat{
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+
