@@ -301,12 +301,12 @@ session_start();
 
 <div class="subscribe" style="position: relative; height: 280px;">
     <form >
-    <h1 style="padding-top: 50px;">Join to the movement</h1>
+    <h1 style="padding-top: 20px;">Join to the movement</h1>
     <p>Sign up to the newsletter and be the first one to know <br>about new arrivals and special offers</p>
-    <input type="email" class = "email" placeholder=" Enter your e-mail " style="border: 0.2px solid black; height: 35px; width: 350px;">
+    <input type="email" class = "email" placeholder=" Enter your e-mail " style="border: 0.2px solid black; height: 35px; width: 350px; margin-bottom: 20px;">
     <input type="submit" class = "submit" value=" Subscribe " @click="downloadd" style="border: 0.5px solid #0c12c2; background-color: #0c12c2; color:white; height: 35px; width: auto;">
 </form>
-<div class="iconss" style="margin-top:20px;">
+<div class="iconss">
     <a href="https://www.facebook.com/qazaq.republic.brand" class="fa fa-facebook"></a>
     <a href="https://www.instagram.com/qazaq.republic/" class="fa fa-instagram"></a>
     <a id="qala" href="whatsapp://send?phone=77789489800&text=" class="fa fa-whatsapp"></a>
