@@ -311,3 +311,142 @@ footer .copyright{
     border: 3px solid #0046c0;
     padding: 6px 20px;
   }
+ @media (max-width:1100px) {
+    
+    .imageblock1{
+        width: 200px;
+        height: 400px;
+        background-size: 100%;
+        border-radius: 10%;
+    }
+    
+    .imageblock2{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    
+    .imageblock3{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+  }
+@media (max-width:740px) {
+    .qazrep{
+        font-size:28px;
+    }
+    .qazrep p{
+        margin-top: 10px;
+    }
+    .logo{
+        height: 50px;
+    }
+    header{
+        height: 80px;
+    }
+    .sidebar{
+        top: 80px;
+        width: 200px;
+    }
+    .menu__link{
+        font-size: 25px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;}
+}
+@media (max-width:640px) {
+    .imageblock1{
+        width: 150px;
+        height: 300px;
+    }
+    
+    .imageblock2{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imageblock3{
+        width: 100px;
+        height: 100px;
+    }
+    .rowblock{
+        font-size: 10px;
+    }
+    .button{
+        font-size: 10px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .qazrep p{
+        margin-top: 5px;
+    }
+    header{
+        height: 80px;
+    }
+    .sidebar{
+        top: 80px;
+        width: 180px;
+    }
+    .menu__link{
+        font-size: 20px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;}
+}
+@media (max-width:605px) {
+    .qazrep{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    header{
+        height: 80px;
+    }
+    .sidebar{
+        top: 80px;
+        width: 200px;
+    }
+    .menu__link{
+        font-size: 25px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;}
+}
+@media (max-width:500px) {
+    .rowblock{
+        display: grid;
+    }
+    .imageblock1{
+        width: 200px;
+        height: 400px;
+        background-size: 100%;
+        border-radius: 10%;
+    }
+    
+    .imageblock2{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+    
+    .imageblock3{
+        width: 200px;
+        height: 200px;
+        background-size: 100%;
+    }
+}
