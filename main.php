@@ -319,3 +319,18 @@ session_start();
 </div>
 </div>
 
+
+<!-- Footer -->
+
+    <footer>
+
+        <!-- Copyright -->
+        <div class = "copyright" style="background-color: #0045c0;">
+          © 2017 Copyright:
+          <a class="footer_a" href="main.html" id = "footer_a">Qazaq Republic - Design: Dollar Bills</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
