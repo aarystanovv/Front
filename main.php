@@ -67,3 +67,25 @@ session_start();
 
 
 
+<!-- Sidebar -->
+
+    <div class="sidebar" id="sidebar">
+        <ul class="sidebar__menu">
+            <li class="menu__item">
+                <a href="#aboutus" class="menu__link">About us</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#catalog" class="menu__link">Catalog</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#lookbook" class="menu__link">LookBook</a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#contacts" class="menu__link">Contacts</a>
+            </li>
+        </ul>
+    </div>
+
