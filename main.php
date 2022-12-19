@@ -33,10 +33,10 @@ session_start();
             </div>
         </div>
         <div class="header_right">
-            <div class="signup">
+            <div class="signup" style="color: white; font-size: 25px; font-family: 'Podkova',serif; position: sticky; top: 33px; text-align: center; margin-top: 24px;">
                 <?php if(!isset($_SESSION['user'])){
                     ?>
-                    <a href="./forms/registration.php">Sign-Up</a>
+                    <a href="registration.php">Sign-Up</a>
                     <?php
                 } else{
                     print_r($_SESSION['user']['full_name']);
