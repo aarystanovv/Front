@@ -243,3 +243,79 @@ session_start();
         </section>
 
      </div>
+<!-- Contacts -->
+    <div class="parallax cn">
+        <div class="mask"></div>
+     </div>
+
+<div id="contacts">
+    <div class="cities">
+        <div id="logo" onclick="window.location.reload()"><img src="https://www.coloradoeagles.com/assets/img/Location-Icon-Circle-LtBlue-769be885ce.png" alt="" height=70px></div>
+        <div id="Almaty" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">-Almaty-</div>
+        <div id="Nur-Sultan" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">-Nur-Sultan-</div>
+        <div id="Shymkent" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">-Shymkent-</div>
+        <div id="Aqtobe" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">-Aqtobe-</div>
+        <div id="Aqtau" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">-Aqtau-</div>
+    </div>
+          <pre>09:00-22:00 || ar kúnı</pre>
+    <div class="textcity">
+            <p id="h">Qosh keldınızder!</p>
+            <p id="t"> </p>
+        </div>
+        <div class="main">
+
+        <img id="map" src="./img/all.png" alt="" usemap="#workmap" style="width: 60%; ">
+        <map name="workmap">
+            <area shape="circle" coords="320,280,80" alt="" href="https://go.2gis.com/bnmsog">
+            <area shape="circle" coords="90,420,120" alt="" href="https://go.2gis.com/dmvdrw">
+            <area shape="circle" coords="650,200,120" alt="" href="https://go.2gis.com/h63gkw">
+            <area shape="circle" coords="550,440,80" alt="" href="https://go.2gis.com/l6w31">
+            <area shape="circle" coords="800,420,120" alt="" href="https://2gis.kz/almaty/firm/70000001040035508?m=76.939%2C43.2671%2F16">
+          </map>
+
+    </div>
+
+
+</div>
+<div class="wues">
+    <form>
+        <div class="emailBox">
+          <label for="emailAddress">Eger suraqtarınız bolsa,astyğa jazyp ketınız</label><br>
+          <input id="emailAddress" type="email" size="44" maxLength="64" style="border: 0.2px solid black;height:30px" required
+                 placeholder="Your e-mail"><br><br>
+        </div>
+
+        <div class="messageBox">
+          <input id="messagee" size="54"  style="border: 0.2px solid black; height: 30px;" required
+                    placeholder="Aty-jon"></input><br>
+          <label for="message">Suraq</label><br>
+          <textarea id="message" cols="54" rows="8" style="border: 0.2px solid black;" required
+                    placeholder="Bari jaqsy bolady!"></textarea>
+        </div>
+        <div id="app">
+            <button class="button" @click="download" style="border: 0.5px solid black; width: auto">Send</button>
+        </div>
+    </form>
+    <img src="./img/25.png" alt="" style="width: 40%;">
+</div>
+
+<div class="subscribe" style="position: relative; height: 280px;">
+    <form >
+    <h1 style="padding-top: 50px;">Join to the movement</h1>
+    <p>Sign up to the newsletter and be the first one to know <br>about new arrivals and special offers</p>
+    <input type="email" class = "email" placeholder=" Enter your e-mail " style="border: 0.2px solid black; height: 35px; width: 350px;">
+    <input type="submit" class = "submit" value=" Subscribe " @click="downloadd" style="border: 0.5px solid #0c12c2; background-color: #0c12c2; color:white; height: 35px; width: auto;">
+</form>
+<div class="iconss" style="margin-top:20px;">
+    <a href="https://www.facebook.com/qazaq.republic.brand" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/qazaq.republic/" class="fa fa-instagram"></a>
+    <a id="qala" href="whatsapp://send?phone=77789489800&text=" class="fa fa-whatsapp"></a>
+    <a href="https://t.me/WeAreQR" class="fa fa-telegram"></a>
+</div>
+<div class="custom-shape-divider-bottom-1639900400">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
+
