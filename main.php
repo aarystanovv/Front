@@ -170,3 +170,45 @@ session_start();
 </div>
 </div>
 
+
+
+
+
+<!-- Catalog -->
+    <div id="catalog">
+        <!-- <img id="cat" src="cat.png" alt=""> -->
+        <div class="parallax ct">
+            <div class="mask"></div>
+         </div>
+        <div class="twos">
+
+        <div class="parent pone">
+            <div class="child bg-one">
+                <a class="grads" href="jeans.html">jeans</a>
+            </div>
+        </div>
+
+        <div class="parent ptwo">
+            <div class="child bg-two">
+                <a class="grads" href="jeidee.html">jeide</a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="twos">
+        <div class="parent ptwo">
+            <div class="child bg-three">
+                <a class="grads" href="./qosymsha.html">qosymsha</a>
+            </div>
+        </div>
+
+        <div class="parent pone">
+            <div class="child bg-four">
+                <a class="grads" href="./gift.html">gift</a>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
