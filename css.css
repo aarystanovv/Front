@@ -699,3 +699,378 @@ footer .copyright{
         transform: rotate(0deg) translate(0, 0);
     }
 }
+@media (max-width:1630px) {
+    .cities{
+        font-size: 30px;
+        padding: 20px 100px;
+    }
+}
+@media (max-width:1520px) {
+    #first{
+        font-size: 90px;
+    }
+    .text pre{
+        font-size: 70px;
+    }
+}
+@media (max-width:1400px) {
+
+
+    .wues label{
+        font-size: 25px;
+        font-family: 'Podkova',serif;
+        color: #0045c0;
+    }
+    .wues form{
+        max-width: 500px;
+    }
+
+    .cities{
+        font-size: 20px;
+        padding: 20px 50px;
+    }
+    .text h1{
+        margin: 180px 0 0 50px;
+    }
+    .text p{
+        margin: 10px 0 0 50px;
+    }
+    .text pre{
+        font-size:50px;
+        margin: 10px 0 -1% 55px;
+    }
+    #first{
+        font-size: 70px;
+        margin-top: -5%;
+    }
+}
+@media (max-width:1260px) {
+
+    .photo{
+        width: 300px;
+        height: 500px;
+    }
+    #lookbook{
+        height: 650px;
+    }
+    .tes{
+        font-size: 15px;
+    }
+    .cities{
+        display: grid;
+        font-size: 40px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+}
+@media (max-width:1100px) {
+    .wues img{
+        width: 10%;
+    }
+    .textcity{
+        font-size: 20px;
+    }
+    #t{
+        font-size: 15px;
+    }
+    .text h1{
+        margin: 180px 0 0 30px;
+        font-size: 35px;
+    }
+    .text p{
+        margin: 10px 0 0 30px;
+        font-size: 15px;
+    }
+    .text pre{
+        font-size:50px;
+        margin: 10px 0 -1% 30px;
+    }
+    #first{
+        font-size: 65px;
+        margin-top: -5%;
+    }
+}
+@media (max-width:950px) {
+    .photo{
+        width: 250px;
+        height: 450px;
+    }
+    #lookbook{
+        height: 600px;
+    }
+    .wues img{
+        display: none;
+    }
+    .wues form{
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+    .wues{
+        font-size: 10px;
+    }
+    .subscribe{
+        font-size: 10px;
+    }
+    .ske{
+        display: grid;
+    }
+    .tes{
+        font-size: 20px;
+    }
+    .car{
+        max-width: 60%;
+        margin-left: 20%;
+    }
+    .text h1{
+        margin: 100px 0 0 30px;
+    }
+    .text pre{
+        font-size:35px;
+    }
+    #first{
+        font-size: 55px;
+    }
+}
+@media (max-width:830px) {
+    .waq{
+        display:grid;
+    }
+    .imgg{
+        width: 30%;
+        margin-left: 65%;
+    }
+}
+@media (max-width:790px) {
+    .photo{
+        width: 200px;
+        height: 400px;
+        padding: 15px 15px;
+    }
+    #lookbook{
+        height: 550px;
+    }
+    .textt h4{
+        font-size: 25px;
+    }
+}
+@media (max-width:740px) {
+    .tes{
+        font-size: 15px;
+    }
+    .qazrep{
+        font-size:28px;
+    }
+    .qazrep p{
+        margin-top: 10px;
+    }
+    .logo{
+        height: 50px;
+    }
+    header{
+        height: 80px;
+    }
+    .video{
+        margin-top: 80px;
+     }
+    .sidebar{
+        top: 80px;
+        width: 200px;
+    }
+    .menu__link{
+        font-size: 25px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;
+    }
+    .header_right .signup a{
+        font-size: 16px;
+    }
+}
+@media (max-width:700px) {
+    .bastyq h1{
+        font-size: 80px;
+    }
+    .imgg{
+        margin-top: -48%;
+        box-shadow: 0px 0px 20px 0.5px rgb(0, 0, 0);
+        margin-left: 58%;
+        z-index: -1;
+        margin-bottom: 70px;
+        width: 35%;}
+}
+@media (max-width:640px) {
+    .text_photo {
+        display: grid;
+        justify-content: space-around;
+    }
+    .photo{
+        width: 300px;
+        height: 550px;
+    }
+    #lookbook{
+        height: 2000px;
+    }
+}
+@media (max-width:630px) {
+    .bastyq h1{
+        font-size: 60px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .qazrep p{
+        margin-top: 5px;
+    }
+    header{
+        height: 80px;
+    }
+    .sidebar{
+        top: 80px;
+        width: 180px;
+    }
+    .wues label{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .wues #emailAddress{
+        margin-left: 5px;
+        height: 200px;
+    }
+    #messagee{
+        margin-left: 5px;
+        width: 340px;
+        height: 28px;
+    }
+    #message{
+        margin-left: 5px;
+        width: 340px;
+        height: 28px;
+    }
+    .menu__link{
+        font-size: 20px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;}
+}
+@media (max-width:605px) {
+    .parallax{
+        height: 50px;
+    }
+    .qazrep{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    header{
+        height: 80px;
+    }
+    .subscribe p{
+        padding-bottom: 10px;
+    }
+    .sidebar{
+        top: 80px;
+        width: 200px;
+    }
+    .menu__link{
+        font-size: 25px;
+    }
+    .hamburger span {
+        height:3px;
+    }
+    .hamburger {
+        width:26px;
+        height:26px;
+    }
+
+}
+@media (max-width:550px) {
+    .tes{
+        font-size: 10px;
+    }
+    .imgg{
+        margin-top: 5%;
+        box-shadow: 0px 0px 20px 0.5px rgb(0, 0, 0);
+        margin-left: 15%;
+        z-index: -1;
+        margin-bottom: 70px;
+        width: 70%;}
+}
+@media (max-width:500px) {
+  .twos{
+    display: block;
+}
+  .pone{
+    width: 40%;
+    height: 350px;
+  }
+  .ptwo{
+    width: 40%;
+    height: 350px;
+  }
+  .grads{
+    font-size: 135%;
+  }
+  .text h1{
+      font-size: 25px;
+  }
+  #first{
+      font-size: 45px;
+  }
+  .header_right .signup a{
+    top: 23px;
+  }
+}
+
+@media (max-width:400px) {
+    .bastyq h1{
+        font-size: 50px;
+    }
+    .twos{
+      display:grid;
+      margin-top:10px;
+      margin-left: 15%;
+  }
+
+  .text h1{
+    font-size: 20px;
+}
+.text p{
+    font-size: 10px;
+}
+#first{
+    font-size: 35px;
+}
+.text pre{
+    font-size: 25px;
+}
+    .pone{
+      width: 80%;
+      height: 150px;
+    }
+    .ptwo{
+      width: 80%;
+      height: 150px;
+    }
+    .grads{
+      font-size: 135%;
+    }
+    .photo{
+        width: 200px;
+        height: 350px;
+    }
+    #lookbook{
+        height: 1500px;
+    }
+    .header_right .signup a{
+        top: 23px;
+    }
+  }
