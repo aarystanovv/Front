@@ -114,3 +114,34 @@ footer .copyright{
         height: 80px;
     }
 }
+@media (max-width:650px) {
+    #h1{
+        font-size: 200%;
+    }
+    .logo{
+        height: 40px;
+    }
+    .qazrep p{
+        margin-top: 5px;
+    }
+    header{
+        height: 80px;
+    }
+}
+@media (max-width:605px) {
+    .qazrep{
+        display: none;
+    }
+    .logo{
+        height: 50px;
+    }
+    header{
+        height: 80px;
+   
+}}
+@media (max-width:440px) {
+    #h1{
+        font-size: 100%;
+    }
+}
+ 
