@@ -24,35 +24,35 @@ a:hover{
 
 /* Header styles */
 header{
-    display: flex;
-    background: #0046c0;
-    justify-content: space-between;
+	display: flex;
+ 	background: #0046c0;
+ 	justify-content: space-between;
     width: 100%;
     position: fixed;
     height: 100px;
     z-index: 3;
 }
 .header_left{
-    display: flex;
-    padding: 10px;
-    padding-left: 20px;
+	display: flex;
+	padding: 10px;
+	padding-left: 20px;
 }
 .burgerbut{
-    background:	#0045c0;
+	background:	#0045c0;
     margin: 0 20px;
     cursor: pointer;
 }
 .homebut{
-    display: flex;
-    background:	#0045c0;
-    margin: 10px 20px 0px 20px;
+	display: flex;
+	background:	#0045c0;
+	margin: 10px 20px 0px 20px;
 }
 .logo{
-    height: 60px;
+	height: 60px;
 }
 .header_right{
-    display: flex;
-    padding: 10px 100px 10px 10px;
+	display: flex;
+	padding: 10px 100px 10px 10px;
 }
 .header_right .signup a{
     color: white;
@@ -63,18 +63,18 @@ header{
     text-align: center;
 }
 .searchbut{
-    background:	#0045c0;
-    margin: 0px 20px;
+	background:	#0045c0;
+	margin: 0px 20px;
 }
 .basketbut{
-    margin: 0px 20px;
-    background:	#0045c0;
+	margin: 0px 20px;
+	background:	#0045c0;
 }
 .qazrep{
-    padding-left: 10px;
-    font-family: 'Podkova', serif;
-    font-size:40px;
-    color: white;
+	padding-left: 10px;
+	font-family: 'Podkova', serif;
+	font-size:40px;
+	color: white;
 }
 .qazrep p{
     margin-top: 20px;
@@ -163,14 +163,14 @@ header{
 }
 
 /* content styles */
-.video{
+ .video{
     margin-top: 100px;
-}
+ }
 
 
-/* Aboutus styles */
-#aboutus{
-    background-color: #0045c0;
+ /* Aboutus styles */
+ #aboutus{
+     background-color: #0045c0;
     margin-top: -8px;}
 .imgg{
     margin-top: -35%;
@@ -251,37 +251,37 @@ header{
 
 
 /* catalog styles */
-#catalog {
+ #catalog {
     padding: 5px;
     max-width: 100%;
-}
-#cat{
-    width: 35%;
-    margin-top: 15px;
-    margin-left: 8%;
-}
+  }
+  #cat{
+      width: 35%;
+      margin-top: 15px;
+      margin-left: 8%;
+  }
 
 
 
-/* Image zoom on hover + Overlay colour */
-.parent{
+  /* Image zoom on hover + Overlay colour */
+  .parent{
     overflow: hidden;
     display: inline-block;
     cursor: pointer;
     padding: 5px;
-}
-.twos{
-    display: flex;
-}
-.pone{
+  }
+  .twos{
+      display: flex;
+  }
+  .pone{
     width: 30%;
     height: 550px;
-}
-.ptwo{
+  }
+  .ptwo{
     width: 70%;
     height: 550px;
-}
-.child{
+  }
+  .child{
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -290,28 +290,28 @@ header{
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-}
-.child a{
+  }
+  .child a{
     font-family: 'Podkova',serif;
-}
-.bg-one{
+  }
+  .bg-one{
     background-image: url("./123/jeans/logo_jeans.jpg");
     background-position: center;
-}
-.bg-two{
+  }
+  .bg-two{
     background-image: url("./123/jeideler/jeide_logo2.jpg");
     background-position: center;
-}
-.bg-three{
+  }
+  .bg-three{
     background-image: url("./123/usak-tuyek/usak_logo.jpg");
     background-position: center;
-}
-.bg-four{
+  }
+  .bg-four{
     background-image: url("./123/gift/gift_logo.jpg");
     background-position: center;
-}
+  }
 
-.grads {
+  .grads {
     display: none;
     font-size: 235%;
     color: #ffffff ;
@@ -325,25 +325,25 @@ header{
     right: 0;
     height: 50px;
     cursor: pointer;
-}
+  }
 
-.parent:hover .child, .parent:focus .child {
+  .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
-}
+  }
 
-.parent:hover .child:before, .parent:focus .child:before {
+  .parent:hover .child:before, .parent:focus .child:before {
     display: block;
-}
+  }
 
-.parent:hover a, .parent:focus a {
+  .parent:hover a, .parent:focus a {
     display: block;
-}
+  }
 
-.child:before {
+  .child:before {
     content: "";
     display: none;
     height: 100%;
@@ -353,7 +353,7 @@ header{
     left: 0;
     background: linear-gradient(180deg, rgb(90, 92, 94) 0%, rgb(233, 241, 243) 100%);
     opacity: 0.9;
-}
+  }
 
 .looks h4 {
     text-align: center;
@@ -397,8 +397,8 @@ header{
     margin-bottom: 5%;
 }
 .bastyq h1{
-    font-size: 95px;
-    -webkit-text-stroke: 3px #0045c0;
+font-size: 95px;
+-webkit-text-stroke: 3px #0045c0;
 }
 .custom-shape-divider-top-1639846922 {
     position: absolute;
@@ -500,7 +500,7 @@ header{
 }
 .subscribe .submit:active {
     transform: translateY(-2px);
-}
+  }
 
 .subscribe h1{
     font-family: 'Podkova',serif;
@@ -515,54 +515,54 @@ header{
     width: 20px;
     text-align: center;
     border-radius: 50%;
-}
+  }
 
 
-.fa:hover {
+  .fa:hover {
     opacity: 0.7;
-}
-.fa-facebook {
+  }
+  .fa-facebook {
     background: #3B5998;
     color: white;
-}
-.fa-whatsapp {
+  }
+  .fa-whatsapp {
     background: #55c05a;
     color: white;
-}
-.fa-telegram {
+  }
+  .fa-telegram {
     background: #5eb1d1;
     color: white;
-}
-.fa-instagram {
+  }
+  .fa-instagram {
     background: #ac14a4;
     color: white;
-}
-.iconss{
-    text-align: center;
-    padding-bottom: 5px;
-}
-.wues{
-    display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    margin-top: 12px;
-    padding-bottom: 10px;
-}
-.wues form{
-    margin-top: 160px;
-    font-family: 'Spartan',serif;
-}
-.wues label{
-    font-size: 35px;
-    font-family: 'Podkova',serif;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1.5px #0045c0;
-}
-.wues form #app{
+  }
+  .iconss{
+      text-align: center;
+      padding-bottom: 5px;
+  }
+  .wues{
+      display: flex;
+      justify-content: space-around;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      margin-top: 12px;
+      padding-bottom: 10px;
+  }
+  .wues form{
+      margin-top: 160px;
+      font-family: 'Spartan',serif;
+  }
+  .wues label{
+      font-size: 35px;
+      font-family: 'Podkova',serif;
+      color: rgb(255, 255, 255);
+      -webkit-text-stroke: 1.5px #0045c0;
+  }
+  .wues form #app{
     margin-top: 20px;
-}
+  }
 
-.wues form #app .button{
+  .wues form #app .button{
     display: block;
     padding: 12px 50px;
     border-radius: 12px;
@@ -570,11 +570,11 @@ header{
     background: #0c12c2;
     color: white;
     transform: translateY(-6px);
-}
-.wues form #app:active .button {
+  }
+  .wues form #app:active .button {
     transform: translateY(-2px);
-}
-.custom-shape-divider-bottom-1639900400 {
+  }
+  .custom-shape-divider-bottom-1639900400 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -601,4 +601,101 @@ footer .copyright{
     font-size: 20px;
     padding: 5px;
     border: none;
+}
+
+
+@keyframes span2{
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    20%{
+        width:5px;
+        border-radius: 50%;
+        transform: translate(0,0) scale(1);
+    }
+    40%{
+        width:5px;
+        border-radius: 50%;
+        transform: translate(0,0) scale(1);
+    }
+    50%{
+        width:5px;
+        border-radius: 50%;
+        transform: translate(0,18px) scale(1);
+    }
+    80%{
+        width:5px;
+        border-radius: 50%;
+        transform: translate(0,-16px) scale(1);
+    }
+    100%{
+        width:5px;
+        border-radius: 50%;
+        transform: translate(0,100px) scale(0);
+    }
+}
+.hamburger.open span:nth-child(3){
+    animation: span3 .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+    animation-delay: .7s;
+}
+@keyframes span3{
+    0%{
+        transform: translate(0,0);
+    }
+    60%{
+        transform: rotate(80deg) translate(-7px, -7px);
+    }
+    100%{
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+}
+.hamburger.open span:nth-child(1){
+    animation: span1 .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+    animation-delay: 1.1s;
+}
+@keyframes span1{
+    0%{
+        transform: translate(0,0);
+    }
+    60%{
+        transform: rotate(-110deg) translate(-7px, -7px);
+    }
+    100%{
+        transform: rotate(-45deg) translate(-9px, 7px);
+    }
+}
+
+.hamburger span:nth-child(1){
+    animation: span1_close .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+}
+
+@keyframes span1_close {
+    0%{
+        transform: rotate(-45deg) translate(-20px, 20px);
+    }
+    100%{
+        transform: rotate(0deg) translate(0, 0);
+    }
+}
+.hamburger span:nth-child(2){
+    animation: span2_close .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+}
+@keyframes span2_close{
+    0%{
+        transform: translate(0, 20px) scale(0);
+    }
+    100%{
+        transform: translate(0, 0) scale(1);
+    }
+}
+.hamburger span:nth-child(3){
+    animation: span3_close .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+}
+@keyframes span3_close{
+    0%{
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+    100%{
+        transform: rotate(0deg) translate(0, 0);
+    }
 }
