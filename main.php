@@ -56,7 +56,11 @@ session_start();
                 </svg>
                 </a>
             </button>
-           
+            <button class="hamburger" onclick="openSide()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
     
         </div>
     </header>
@@ -84,4 +88,34 @@ session_start();
             </li>
         </ul>
     </div>
+
+<!-- Content -->
+
+
+    <div class="content">
+
+    <video class="video" width=100% controls >
+        <source src="123/qazaqrep.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+
+<!-- About us -->
+<div id="aboutus">
+    <div class="parallax au">
+        <div class="mask"></div>
+     </div>
+    <div class="waq">
+        <div class="text">
+        <h1>We are <br>Qazaq Republic</h1>
+        <p>The word Qazaq means “free” from <br>ancient Türkic, therefore our prints have <br>a double meaning. It’s a play on words:</p>
+        <pre>Born to be Qazaq</pre>
+        <pre id="first">Born to be Free</pre>
+        </div>
+        <div class="sur">
+        <img class="imgg" width="40%" src="./img/qaz.jpg" alt="">
+        </div>
+</div>
+</div>
 
