@@ -68,6 +68,47 @@ header{
 .qazrep p{
     margin-top: 20px;
 }
+/* Sidebar styles */
+
+.sidebar {
+    position: fixed;
+    top: 100px;
+    right: 0;  
+    z-index: 3;
+    padding-top: 50px;
+
+    height: calc(100vh - 100px);
+    width: 250px;
+    background-color: #0045c0;
+
+    transform: translateX(100vw);
+    transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+.sidebar a{
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: yellow;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 50%;
+}
+
+.menu__link {
+    font-size: 35px;
+    font-family: 'Podkova',serif;
+    color: #fff;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
 
 
 
