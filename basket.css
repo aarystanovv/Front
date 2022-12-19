@@ -1,0 +1,68 @@
+/* Default style */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+/* Header styles */
+header{
+	display: flex;
+ 	background: #0046c0;
+ 	justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    z-index: 3;
+}
+.header_left{
+	display: flex;
+	padding: 10px;
+	padding-left: 20px;
+}
+.homebut{
+	display: flex;
+	background:	#0045c0;
+	margin: 10px 20px 0px 20px;
+}
+.logo{
+	height: 60px;
+}
+.header_right{
+	display: flex;
+	padding: 10px 10px 10px 10px; 
+}
+.searchbut{
+	background:	#0045c0;
+	margin: 0px 20px;
+}
+.basketbut{
+	margin: 0px 20px;
+	background:	#0045c0;
+}
+.qazrep{
+	padding-left: 10px;
+	font-family: 'Podkova', serif;
+	font-size:40px;
+	color: white;
+}
+.qazrep p{
+    margin-top: 20px;
+}
