@@ -37,3 +37,45 @@ header{
     padding: 10px;
     padding-left: 20px;
 }
+.burgerbut{
+    background:	#0045c0;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.homebut{
+    display: flex;
+    background:	#0045c0;
+    margin: 10px 20px 0px 20px;
+}
+.logo{
+    height: 60px;
+}
+.header_right{
+    display: flex;
+    padding: 10px 100px 10px 10px;
+}
+.header_right .signup a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Podkova',serif;
+    position: sticky;
+    top: 33px;
+    text-align: center;
+}
+.searchbut{
+    background:	#0045c0;
+    margin: 0px 20px;
+}
+.basketbut{
+    margin: 0px 20px;
+    background:	#0045c0;
+}
+.qazrep{
+    padding-left: 10px;
+    font-family: 'Podkova', serif;
+    font-size:40px;
+    color: white;
+}
+.qazrep p{
+    margin-top: 20px;
+}
